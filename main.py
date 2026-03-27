@@ -13,7 +13,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm,ForgotPas
 from itsdangerous import URLSafeTimedSerializer as serializer
 import os
 from dotenv import load_dotenv
-from flask_mail import Mail, Messagegit 
+from flask_mail import Mail, Message
 # import smtplib
 
 
